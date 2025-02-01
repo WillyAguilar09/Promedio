@@ -1,0 +1,18 @@
+
+
+        /* Estilo para que el formulario se centre verticalmente y ocupe todo el alto de la ventana */
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Estilo adicional para el formulario */
+        .formulario-personalizado {
+            border: 2px solid #007BFF; /* Azul de Bootstrap */
+            padding: 20px;
+            border-radius: 15px; /* Bordes redondeados */
+            background-color: #f8f9fa; /* Fondo claro */
+        }
