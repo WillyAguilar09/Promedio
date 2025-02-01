@@ -25,7 +25,17 @@ function calcular() {
             });
         } else {
             let prom=(a+b+c)/3
-            document.getElementById("promedio").value = prom
+            let mensaje
+            if (prom<60){
+                mensaje ="Reprobado";
+           }else if(prom<79){
+            mensaje="Bueno"
+           }else if (prom<89){
+            mensaje="Muy Bueno"
+           }else {
+            mensaje="Sobresaliente"
+           }
+            document.getElementById("promedio").value = prom+" Su status es de: "+ mensaje
         }
     }
 }
